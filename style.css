@@ -1,0 +1,114 @@
+li{
+    list-style-type: none;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+}
+
+body{
+    background-color: #1F2937;
+}
+
+#header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+
+}
+
+#body-1{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding: 100px;
+    background-color: #1F2937;
+}
+
+#header li,
+#body-1 p{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+#header h1{
+
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: extra-bold;
+}
+
+#body-1 h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.body-2{
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.images-second{
+    display: flex;
+    gap: 30px;
+}
+
+.image-subtext{
+    width: 240px;
+}
+
+.body-3{
+    background-color: #E6E7EB;
+    justify-content: center;
+    display: flex;
+}
+
+.words{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.quote{
+    font-size: 36px;
+    align-self: center;
+    font-style: italic;
+}
+
+.signature{
+    align-self: flex-end;
+}
+
+.body-4{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.formcall{
+    background-color: #3882F6;
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+}
+
+.button{
+    height: 25px;
+    background-color: #3882F6;
+    border-radius: 4px;
+    border-color: white;
+    box-sizing: border-box;
+    color: white;
+}
